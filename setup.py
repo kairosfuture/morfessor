@@ -35,8 +35,5 @@ setup(name='Morfessor',
                'scripts/morfessor-segment',
                'scripts/morfessor-evaluate',
                ],
-      install_requires=requires,
-      extras_require={
-          'docs': [l.strip() for l in open('docs/build_requirements.txt')]
-      }
-      )
+      install_requires=requires
+)
